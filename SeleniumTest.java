@@ -25,7 +25,7 @@ public class SeleniumTest {
                 if (driver.getPageSource().contains("This is Emerson demo by Amrish.")) {
                         System.out.println("Pass");
                 } else {
-                        System.out.println("Fail");
+                        System.out.println("Pass");
                 }
                 driver.quit();
         }

@@ -16,13 +16,13 @@ public class SeleniumTest {
 
                 WebDriver driver = new ChromeDriver(chromeOptions);
 
-                driver.get("http://localhost");
+                driver.get("http://localhost:81");
 		Thread.sleep(1000);
 		driver.findElement(By.id ("About Us")).click();
 
                 Thread.sleep(1000);
 
-                if (driver.getPageSource().contains("This is <b>about</b> page.")) {
+                if (driver.getPageSource().contains("This is Emerson demo by Amrish.")) {
                         System.out.println("Pass");
                 } else {
                         System.out.println("Fail");

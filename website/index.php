@@ -1,6 +1,6 @@
 <?php
 
-echo "EMERSON DEMO by Amrish";
+echo "EMERSON DEMO";
 
 require 'config.php';
 require 'functions.php';
